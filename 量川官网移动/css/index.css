@@ -1,0 +1,207 @@
+/* 导航图 */
+
+.banner_img {
+    background: url(../img/banner.png) no-repeat center;
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 44px;
+}
+
+
+
+/* 容器 */
+
+.container {
+    width: 100%;
+}
+
+/* banner_content */
+
+.container .banner_content {
+    width: 100%;
+}
+
+.container .banner_content ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.container .banner_content ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.container .banner_content ul li .img {
+    text-align: center;
+    height: 34px;
+    line-height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    border: 1px solid rgb(126, 126, 221);
+}
+
+.container .banner_content ul li:nth-child(2) .img {
+    border: 1px solid #fdba4d;
+}
+
+.container .banner_content ul li:nth-child(3) .img {
+    border: 1px solid #fca86e;
+}
+
+.container .banner_content ul li:nth-child(3) .img {
+    border: 1px solid #fca86e;
+}
+
+.container .banner_content ul li:nth-child(4) .img {
+    border: 1px solid #e4960d;
+}
+
+.container .banner_content ul li .img_content {
+    text-align: center;
+}
+
+.container .banner_content ul li .img_content span {
+    color: gray;
+    font-size: 12px;
+}
+
+.container .banner_content ul li .img_content .line {
+    border-bottom: 1px solid rgb(129, 129, 230);
+    height: 3px;
+    padding-top: 2px;
+}
+
+.container .banner_content ul li:nth-child(2) .img_content .line {
+    border-bottom: 1px solid #fdba4d;
+}
+
+.container .banner_content ul li:nth-child(3) .img_content .line {
+    border-bottom: 1px solid #fca86e;
+}
+
+.container .banner_content ul li:nth-child(4) .img_content .line {
+    border-bottom: 1px solid #e4960d;
+}
+
+/* 精选案例标题 */
+
+.container .case .case_title {
+    width: 100%;
+    padding: 5px 0px;
+    display: flex;
+    background-color: rgb(218, 211, 211);
+}
+
+.container .case .case_title span:first-child {
+    border-left: 6px solid orange;
+    margin-right: 10px;
+}
+
+.container .case .case_title span:last-child {
+    font-size: 14px;
+}
+
+/* 精选案例内容 */
+
+.container .case .case_content {
+    width: 100%;
+}
+
+.container .case .case_content .more{
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20px;
+}
+
+.container .case .case_content .more a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 8px 10px;
+    background-color: rgb(83, 83, 245);
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.container .case .case_content .more a:hover{
+    background-color: rgb(41, 41, 255);
+    transition: 0.2s;
+}
+
+.container .case .case_content ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .case .case_content ul li {
+    display: flex;
+}
+
+.container .case .case_content ul li .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.container .case .case_content ul li .img img{
+    margin-left: 10px;
+    border-radius: 15px;
+}
+.container .case .case_content ul li .img_content {
+    text-align: left;
+}
+
+.container .case .case_content ul li .img_content .title {
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.container .case .case_content ul li .img_content .title span {
+    font-size: 16px;
+}
+
+.container .case .case_content ul li .img_content .title_content {
+    width: 80%;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.container .case .case_content ul li .img_content .title_content span {
+    font-size: 12px;
+    color: rgb(105, 104, 104);
+}
+
+/* 线 */
+
+.container .case .case_content ul .line {
+    text-align: center;
+    width: 100%;
+}
+
+.container .case .case_content ul .line span {
+    display: inline-block;
+    width: 90%;
+    border-bottom: 1px solid #ccc;
+}
+
+/* 脚部分颜色 */
+
+footer .footer ul li:nth-child(1) .img_content span a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #258fed;
+}

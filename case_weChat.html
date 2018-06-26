@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
+    <title>经典案例-微信开发</title>
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/weChat.css">
+    <link rel="icon" href="./logo.ico" type="image/x-icon" />
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <a href="./index.html">
+            <img class="logo" src="./img/logo.png" alt="图片" title="量川科技" />
+        </a>
+        <ul>
+            <li>
+                <a href="./index.html">首页</a>
+                <div>HOME</div>
+            </li>
+            <li>
+                <a href="./case_appDevelopment.html">经典案例</a>
+                <div>CLASSIC CASE </div>
+            </li>
+            <li>
+                <a href="./about_us.html">关于我们</a>
+                <div>ABOUT US</div>
+            </li>
+        </ul>
+    </div>
+    <div class="banner_img">
+    </div>
+    <div class="container">
+        <div class="case_display">
+            <div class="title">
+                <span>Display cases</span>
+            </div>
+            <div class="title_">
+                <span>案例展示</span>
+            </div>
+            <div class="case_line">
+            </div>
+            <div class="tab_case">
+                <ul>
+                    <li>
+                        <span class="first">
+                            <a href="./case_appDevelopment.html">App开发</a>
+                        </span>
+                        <div>App development
+
+                        </div>
+                    </li>
+                    <li class="second">
+                        <span>
+                            <a href="./case_weChat.html">微信开发</a>
+                        </span>
+                        <div>WeChat development
+                            <div class="line_"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <span>
+                            <a href="./case_website.html">企业官网</a>
+                        </span>
+                        <div>Enterprise Website
+                        </div>
+                    </li>
+                    <li>
+                        <span>
+                            <a href="./case_system.html">管理系统</a>
+                        </span>
+                        <div>Management System
+                        </div>
+                    </li>
+                </ul>
+                <div class="line">
+                    <span></span>
+                </div>
+            </div>
+            <div class="case_content">
+                <div class="img">
+                    <img width="766px" height="484px" src="./img/gzh_coffie.png">
+                </div>
+                <div class="content">
+                    <span>然后咖啡公众号</span>
+                    <div>为"然后"咖啡厅定制的微信公众号订餐功能，实现公众号粉丝和订单的双向转换。</div>
+                </div>
+            </div>
+
+            <div class="case_content_lc">
+                <div class="content">
+                    <span>量川云微信公众号</span>
+                    <div>量川云物流系统的微信公众号，功能包括查询订单，发送退货，送货信息等，方便用户使用。</div>
+                </div>
+                <div class="img">
+                    <img src="./img/gzh_lcy1.png">
+                </div>
+                <div class="img">
+                    <img src="./img/gzh_lcy2.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <ul class="show">
+                <li>
+                    <a href="./index.html">首页</a>
+                    <span style="margin:0px 10px 0px 10px;">|</span>
+                </li>
+                <li>
+                    <a href="./enterpriseAdvantage.html">企业服务</a>
+                    <span style="margin:0px 10px 0px 10px;">|</span>
+                </li>
+                <li>
+                    <a href="./case_appDevelopment.html">案例展示</a>
+                    <span style="margin:0px 10px 0px 10px;">|</span>
+                </li>
+                <li>
+                    <a href="./about_us.html">关于我们</a>
+                </li>
+            </ul>
+            <div class="follow">
+                <div class="code">
+                    <div class="img">
+                        <img src="./img/code.png">
+                        </a>
+                    </div>
+                    <div class="content">扫一扫关注我们</div>
+                </div>
+                <ul>
+                    <li>
+                        <span>电话:020-80929929</span>
+                    </li>
+                    <li>
+                        <span>邮箱:lctechnology@126.com</span>
+                    </li>
+                    <li>
+                        <span>地址:广州市海珠区宸悦路叁悦广场B塔1204</span>
+                    </li>
+                    <li>
+                        <span></span>
+                    </li>
+                    <li>
+                        <span>广州市量川科技有限公司</span>
+                        <span>
+                            <a href="http://www.miitbeian.gov.cn">粤ICP备17072453</a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    $(document).ready(function () {
+        $(".container .case_display .tab_case ul li:nth-child(1)").hover(function () {
+            $(".container .case_display .tab_case ul li.second  div .line_").css({
+                'position': 'relative',
+                'left': '-248px',
+                'transition': '0.5s'
+            });
+        }, function () {
+            $(".container .case_display .tab_case ul li.second  div .line_").css({
+                'position': 'relative',
+                'left': '0px'
+            });
+        });
+
+        $(".container .case_display .tab_case ul li:nth-child(3)").hover(function () {
+            $(".container .case_display .tab_case ul li.second  div .line_").css({
+                'position': 'relative',
+                'left': '248px',
+                'transition': '0.5s'
+            });
+        }, function () {
+            $(".container .case_display .tab_case ul li.second  div .line_").css({
+                'position': 'relative',
+                'left': '0px'
+            });
+        });
+
+
+        $(".container .case_display .tab_case ul li:nth-child(4)").hover(function () {
+            $(".container .case_display .tab_case ul li.second  div .line_").css({
+                'position': 'relative',
+                'left': '496px',
+                'transition': '0.5s'
+            });
+        }, function () {
+            $(".container .case_display .tab_case ul li.second  div .line_").css({
+                'position': 'relative',
+                'left': '0px'
+            });
+        });
+
+    });
+
+    // $(
+    //     function () {
+    //         if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+    //             window.location.href = "./量川官网移动/appDevelopment.html";
+    //             console.log("移动端");
+    //         } else {
+    //             // window.location.href = "./index.html";
+    //             console.log("pc端");
+    //         }
+    //     }
+    // );
+</script>
+
+</html>

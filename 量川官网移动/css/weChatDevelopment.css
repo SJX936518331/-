@@ -1,0 +1,124 @@
+/* banner_content */
+
+.container {
+    margin-top: 44px;
+}
+
+.container .banner_content {
+    width: 100%;
+}
+
+.container .banner_content ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.container .banner_content ul li {
+    padding: 10px;
+}
+
+.container .banner_content ul li .content .line {
+    height: 1px;
+    border-bottom: 2px solid rgb(114, 173, 241);
+    padding-top: 10px;
+}
+
+.container .banner_content ul li .content div {
+    padding: 0px 5px;
+}
+
+.container .banner_content ul li .content div span a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.container .banner_content ul li:nth-child(2) .content div span:nth-child(1) a {
+    color: rgb(114, 173, 241);
+}
+
+/* 微信开发案例 */
+
+.case, .case .case_backimg {
+    width: 100%;
+}
+
+.case .case_backimg {
+    display: flex;
+    border-radius: 5px;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-bottom: 10px;
+}
+
+.case .rh {
+    background: url(../img/gzh_rh_bg.png) no-repeat center;
+    background-size: cover;
+}
+.case .lcy{
+    background: url(../img/gzh_lcy_bg.png) no-repeat center;
+    background-size: cover;
+} 
+.case .case_backimg .case_img {
+    flex: 0.9;
+    padding: 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.case .rh .case_img img {
+    width: 200px;
+    height: 120px;
+}
+
+.case .lcy .case_img img {
+    width: 60px;
+    height: 120px;
+    margin-right: 10px;
+}
+
+.case .case_backimg .case_content {
+    flex: 0.5;
+    padding: 12px 10px;
+    width: 70%
+}
+
+/* 案例标题  */
+
+.case .case_backimg .case_content .case_title {
+    padding-bottom: 5px;
+}
+
+.case .case_backimg .case_content .case_title span {
+    font-size: 14px;
+    color: white;
+}
+
+/* 案例内容 */
+
+.case .case_backimg .case_content .content span {
+    font-size: 12px;
+    color: rgb(243, 243, 243);
+}
+
+.case .case_backimg .case_content .content div {
+    font-size: 12px;
+    padding-top: 3px;
+    color: white;
+}
+
+/* .case:last-child .case_backimg .case_content{padding-left: 3px;} */
+
+/* 脚部分 */
+
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+}
+
+footer .footer ul li:nth-child(2) .img_content span a {
+    color: #258fed;
+}

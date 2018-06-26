@@ -1,0 +1,191 @@
+/* 导航图 */
+
+.banner_img {
+    background: url(../img/about_us_bg.png) no-repeat center;
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 44px;
+}
+
+
+/* 布局容器 */
+
+.container {
+    width: 100%;
+}
+
+/* 关于我们标题 */
+
+.container .case .case_title {
+    width: 100%;
+    padding: 5px 0px;
+    display: flex;
+    background-color: rgb(238, 238, 238);
+}
+
+.container .case .case_title span:first-child {
+    border-left: 6px solid orange;
+    margin-right: 10px;
+}
+
+.container .case .case_title span:last-child {
+    font-size: 14px;
+}
+
+/* 企业信息 */
+
+.container .case .enterprise_information {
+    width: 100%;
+}
+
+.container .case .enterprise_information .enterprise_describe {
+    padding: 10px 10px 20px;
+    font-size: 15px;
+}
+
+.container .case .enterprise_img {
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+}
+
+.container .case .enterprise_img ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container .case .enterprise_img ul li {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    width: 125px;
+    height: 100px;
+}
+
+.container .case .enterprise_img ul li img {
+    width: 125px;
+    height: 100px;
+}
+
+/* 联系我们 */
+
+.container .case .contact_us {
+    width: 100%;
+}
+
+/* 电话 */
+
+.container .case .contact_us .contact_phone {
+    width: 100%;
+    display: flex;
+}
+
+.container .case .contact_us .contact_phone .phone {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container .case .contact_us .contact_phone .phone span, .container .case .contact_us .contact_phone .number span {
+    padding: 10px;
+}
+
+.container .case .contact_us .contact_phone .number span {
+    font-size: 14px;
+}
+
+.container .case .contact_us .contact_phone .number {
+    flex: 5;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* 邮箱 */
+
+.container .case .contact_us .contact_email {
+    width: 100%;
+    display: flex;
+}
+
+.container .case .contact_us .contact_email .email {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container .case .contact_us .contact_email .email span, .container .case .contact_us .contact_email .content span {
+    padding: 10px;
+}
+
+.container .case .contact_us .contact_email .content span {
+    font-size: 14px;
+}
+
+.container .case .contact_us .contact_email .content {
+    flex: 5;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* 地址 */
+
+.container .case .contact_us .contact_address {
+    width: 100%;
+    display: flex;
+}
+
+.container .case .contact_us .contact_address .address {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container .case .contact_us .contact_address .address span, .container .case .contact_us .contact_address .content span {
+    padding: 10px;
+}
+
+.container .case .contact_us .contact_address .content span {
+    font-size: 14px;
+}
+
+.container .case .contact_us .contact_address .content {
+    flex: 5;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* 微信公众号 */
+
+.container .case .contact_us .contact_gzh {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .case .contact_us .contact_gzh .gzh {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.container .case .contact_us .contact_gzh .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+/* 脚部分 */
+
+/* footer{position: fixed;left: 0px;bottom: 0px;} */
+
+/* 脚部分内容颜色 */
+
+footer .footer ul li:nth-child(4) .img_content span a {
+    color: #258fed
+}

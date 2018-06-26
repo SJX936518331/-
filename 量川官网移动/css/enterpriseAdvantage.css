@@ -1,0 +1,170 @@
+/* 导航图 */
+
+.banner_img {
+    background: url(../img/advantage_bg.png) no-repeat center;
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 44px;
+}
+
+/* 导航图内容 */
+
+.banner_img span {
+    width: 50%;
+    padding: 5px;
+    color: rgb(250, 246, 246);
+}
+
+/* 布局容器 */
+
+.container {
+    width: 100%;
+}
+
+/* 企业优势标题 */
+
+.container .case .case_title {
+    width: 100%;
+    padding: 5px 0px;
+    display: flex;
+    background-color: rgb(238, 238, 238);
+}
+
+.container .case .case_title span:first-child {
+    border-left: 6px solid orange;
+    margin-right: 10px;
+}
+
+.container .case .case_title span:last-child {
+    font-size: 14px;
+}
+
+/* 企业优势内容 */
+
+.container .case .banner_content {
+    width: 100%;
+}
+
+.container .case .banner_content ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.container .case .banner_content ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.container .case .banner_content ul li .img {
+    text-align: center;
+    height: 34px;
+    line-height: 34px;
+    width: 34px;
+}
+
+.container .case .banner_content ul li .img_content {
+    text-align: center;
+}
+
+.container .case .banner_content ul li .img_content span {
+    color: gray;
+    font-size: 12px;
+}
+
+.container .case .banner_content ul li .img_content .line {
+    border-bottom: 1px solid rgb(129, 129, 230);
+    height: 3px;
+    padding-top: 2px;
+}
+
+/* 服务流程 */
+
+.container .case .server_process, .container .case .server_process .server_process_left {
+    width: 100%;
+}
+
+.container .case .server_process {
+    display: flex;
+}
+
+.container .case .server_process .server_process_left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-right: 10px;
+}
+
+.container .case .server_process .server_process_left .radius {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .case .server_process .server_process_left .top {
+    padding-top: 10px;
+}
+
+.container .case .server_process .server_process_left .radius span {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+}
+
+.container .case .server_process .server_process_left .line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .case .server_process .server_process_left .line span {
+    height: 45px;
+    border-left: 1px solid #ccc;
+}
+
+.container .case .server_process .server_process_right {
+    width: 100%;
+    flex: 8;
+}
+
+.container .case .server_process .right_top {
+    padding-top: 10px;
+}
+
+.container .case .server_process .server_process_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.container .case .server_process .server_process_right .server_process_title {
+    padding-bottom: 2px;
+    margin-top: -5px;
+}
+
+.container .case .server_process .server_process_right .server_process_title span {
+    font-size: 15px;
+}
+
+.container .case .server_process .server_process_right .server_process_content span {
+    font-size: 12px;
+}
+
+/* 脚部分 */
+
+/* footer{position: fixed;left: 0px;bottom: 0px;} */
+
+/* 脚部分内容颜色 */
+
+footer .footer ul li:nth-child(3) .img_content span a {
+    color: #258fed
+}
